@@ -1,0 +1,129 @@
+\documentclass{article}
+\usepackage{vmargin}
+\setpapersize{USletter} %Tamaño del papel
+\setmargins{2.54cm} % Maren Izquierda
+{2.54cm} %Margen superior
+{16.52cm} %Ancho del texto
+{22.82cm} %Altura del texto
+{0.2cm} %Altura de los encabezados
+{1cm} %Espacio entre los textos
+{1cm} %Altura del pie de pagina
+{1cm} %Espacio entre el texto y el pie de pagina
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+
+\begin{document}
+	
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			
+			\Huge{\textbf{Nociones de la memoria del computador}}
+			
+			\vspace{7cm}
+			
+			\Large{\textbf{Autor:}\\Juan Alejandro Gualteros Fonseca}
+			
+			\vfill
+			
+			\vspace{0.5cm}
+			
+			\Large
+			Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+			Universidad de Antioquia\\
+			Medellín\\
+			Septiembre - 2020
+			
+		\end{center}
+	\end{titlepage}
+	
+	\newpage
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Introducción}\label{intro}
+	Dentro de la computación hay muchos temas propios, que son de gran interés no solo por ser fundamentales para diseñar nuestra sociedad actual, sino también porque representan grandes avances, que hace apenas unas décadas eran impensables y que hoy hacen parte de la cotidianidad.\\
+	Entre esos está la memoria, como componente fundamental para el funcionamiento de un ordenador, de cualquier nivel. Ahora es muy fácil definir memoria como la capacidad de almacenar y procesar información, pero esta descripción no nos dice como hace un dispositivo eléctrico para guardar algo intangible en esencia, es un avance muy merecido de nuestra época y que merece un concienzudo análisis, algo que este informe tratara de hacer. 
+	
+	\newpage
+	
+	\section{Defina que es la memoria del computador} \label{defina}
+	Cuando hablamos de memoria en un contexto general, nos referimos a la capacidad de retener información, y luego poder acceder a ella en el momento más indicado, en el ámbito informático la memoria es el dispositivo que retiene y almacena los datos informáticos durante un periodo de tiempo, la memoria otorga una función fundamental en la computación moderna, el almacenamiento de la información y del conocimiento de una manera accesible y rápida.
+	\\\\
+	En su descripción moderna la memoria, suele referirse a una forma de almacenamiento en estado sólido, donde se guardan los datos que se usan en el momento presente, una mejor descripción seria memoria RAM (Random Access Memory), memoria de acceso aleatorio o Memoria Volátil, se llama así porque el procesador accede a la información que está en la memoria en cualquier punto sin tener que acceder a la información anterior o posterior. Es la memoria que se actualiza constantemente mientras el ordenador está en uso y que pierde sus datos mientras el ordenador se apaga.
+	\\\\
+	El propósito del almacenamiento es guardar datos que el computador no esté usando. Dicho almacenamiento tiene tres ventajas sobre la “Memoria”:
+	
+	\begin{enumerate}
+		
+		\item Hay espacio en almacenamiento que en “Memoria”
+		\item El almacenamiento retiene su contenido cuando se apaga el computador
+		\item Es más barato que la “Memoria”
+		
+	\end{enumerate}
+
+	 Lo cual en la computación actual viene siento represando por un tiempo especial de memoria que es la Memoria no volátil, o memoria ROM (read-only memory), lo que permite la lectura de la información y no su escritura independientemente de la presencia o no de energía.
+	 \\\\
+	 Para hacer una correcta analogía, un trabajador tiene que entregar los informes contables de una compañía, para ello tiene una Gaveta o caja para almacenarlo y una mesa con un libro contable y distintos formularios para su trabajo, mientras el trabajador se encuentra analizando la información que posee y transcribiéndola correctamente dentro de los formularios y el libro,(función que dentro del computador realiza el procesador), esta queda almacenada en distintos documentos que se pueden tomar como paquetes de información, cuando la jornada laboral del trabajador termina este guarda dichos paquetes en la Gaveta y termina su turno laboral, en el entorno digital, la mesa el libro y los formularios representan la memoria volátil, la cual solo está en uso mientras se requiera pero cuando el trabajador se va deja de usarcé, y la Gaveta la Memoria no volátil que cuando el trabajar termina almacena la información a la espera que esta vuelva a ser requerida.
+	
+	\section{Menciona dos tipos de memoria que conoce y haga una pequeña descripción de cada una} \label{menciona}
+	En un computador hay varios tipos de memoria, ordenados en jerarquías de velocidad ycapacidad, en este caso se muestran unas de una gran relevancia:
+	
+	\begin{enumerate}
+		
+		\item Memoria Cache L1, L2 y L3
+		\item Memoria RAM
+		\item Memoria RAM
+		\item Disco Duro
+		
+	\end{enumerate}
+	
+	\subsection{Memoria Cache L1, L2, L3}
+	Actualmente hay microprocesadores de demasiado rápido que funciona a miles de millones de  ciclos por segundo, por lo cual requiere un dispositivo de almacenamiento temporal, de alta velocidad que pueda seguirle el ritmo, de lo contrario la velocidad se desperdiciaría a esperar que la información llegue, pero ese tipo de memorias y a esa velocidades resultan ser demasiados costosas, por lo que se dio como solución utilizar la memoria Cache que es la memoria más veloz en pequeñas cantidades secundadas, y la memoria RAM en grandes cantidades de almacenamiento falsh, ya que cada vez que se toma un paquete de datos del procesador se toma una copia por la memoria Cache.
+	\\\\
+	Su función como memoria intermedia, que guarda los datos para que soluciones futuras por lo que esos datos se pueden atender con mayor rapidez, pueden ser el resultado de un cálculo anterior, o como derivados de almacenamientos de un proceso, es una memoria intermedia su función es la velocidad. Algo que en el análisis de datos y a la velocidad de los procesadores, es muy necesario.
+	
+	\subsection{Memoria Virtual}
+	Es una porción del disco duro, en tercer grado de jerarquía en la velocidad del disco duro, que está dedicada exclusivamente a “sostener”, temporalmente los pedazos de los programas, y datos en ejecución que se utilizan menos, o que ocupan un espacio innecesario en algún momento determinado y es preferible colocarlos en una zona de reserva, donde siempre estarán listos para ser utilizados cuando se les requiera, pero no ocuparán innecesariamente espacio en la memoria.
+	
+	\subsection{Disco Duro}
+	EL disco duro es de un procesamiento comparativo más lento que las opciones anteriores ya que guardar la información aquí, procede a tardar más con la intención de conservar la información después de que le ordenador no tenga energía, por lo que se conoce como memoria no volátil, lo cual nos permite guardar información importante para su uso cuando iniciemos el equipo, mientras tanto el guardar la información de forma nativa, demora algo más de tiempo que las opciones anteriores, aunque y también depende mucho el tipo de disco duro si es de estado sólido (SSD) o unidad de disco fuerte (HDD).
+	
+	\section{Defina que es la memoria del computador} \label{defina}
+	Esta sección es para ver qué pasa con los comandos que definen texto.
+	\subsection{Citación}
+	Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
+	También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
+	Revisar en la última sección el formato de las referencias en IEEE.
+	
+	\section{Defina que es la memoria del computador} \label{defina}
+	Esta sección es para ver qué pasa con los comandos que definen texto.
+	\subsection{Citación}
+	Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
+	También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
+	Revisar en la última sección el formato de las referencias en IEEE.
+	
+	
+	En la sección \ref{imagenes}, se presentará como añadir ilustraciones al texto.
+	
+	\section{Inclusión de imágenes} \label{imagenes}
+	
+	En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
+	
+	\begin{figure}[h]
+		\includegraphics[width=4cm]{rom.jpg}
+		\centering
+		\caption{Logo de C++}
+		\label{fig:cpplogo}
+	\end{figure}
+	
+	Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
+	
+\end{document}
