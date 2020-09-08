@@ -1,11 +1,10 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}% 
 \contentsline {section}{\numberline {2}Defina que es la memoria del computador}{3}% 
-\contentsline {section}{\numberline {3}Menciona dos tipos de memoria que conoce y haga una peque\IeC {\~n}a descripci\IeC {\'o}n de cada una}{3}% 
+\contentsline {section}{\numberline {3}Menciona dos tipos de memoria que conoce y haga una peque\IeC {\~n}a descripci\IeC {\'o}n de cada una}{4}% 
 \contentsline {subsection}{\numberline {3.1}Memoria Cache L1, L2, L3}{4}% 
 \contentsline {subsection}{\numberline {3.2}Memoria Virtual}{4}% 
 \contentsline {subsection}{\numberline {3.3}Disco Duro}{4}% 
-\contentsline {section}{\numberline {4}Describa la manera como se gestiona la memoria\\de un computador}{4}% 
+\contentsline {section}{\numberline {4}Describa la manera como se gestiona la memoria\\de un computador}{5}% 
 \contentsline {section}{\numberline {5}\IeC {\textquestiondown }Que hace que una memoria sea m\IeC {\'a}s r\IeC {\'a}pida que otra?\\\IeC {\textquestiondown }Porque eso es importante?}{5}% 
 \contentsline {section}{\numberline {6}Conclusi\IeC {\'o}n}{6}% 
-\contentsline {section}{\numberline {7}Inclusi\IeC {\'o}n de im\IeC {\'a}genes}{6}% 
