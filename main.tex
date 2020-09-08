@@ -11,7 +11,6 @@
 {1cm} %Espacio entre el texto y el pie de pagina
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{listings}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{cite}
@@ -55,11 +54,11 @@
 	\newpage
 	
 	\section{Defina que es la memoria del computador} \label{defina}
-	Cuando hablamos de memoria en un contexto general, nos referimos a la capacidad de retener información, y luego poder acceder a ella en el momento más indicado, en el ámbito informático la memoria es el dispositivo que retiene y almacena los datos informáticos durante un periodo de tiempo, la memoria otorga una función fundamental en la computación moderna, el almacenamiento de la información y del conocimiento de una manera accesible y rápida.
+	Cuando hablamos de memoria en un contexto general, nos referimos a la capacidad de retener información, y luego poder acceder a ella en el momento más indicado, en el ámbito informático la memoria es el dispositivo que retiene y almacena los datos informáticos durante un periodo de tiempo, la memoria otorga una función fundamental en la computación moderna, el almacenamiento de la información y del conocimiento de una manera accesible y rápida.\cite{memoria}
 	\\\\
-	En su descripción moderna la memoria, suele referirse a una forma de almacenamiento en estado sólido, donde se guardan los datos que se usan en el momento presente, una mejor descripción seria memoria RAM (Random Access Memory), memoria de acceso aleatorio o Memoria Volátil, se llama así porque el procesador accede a la información que está en la memoria en cualquier punto sin tener que acceder a la información anterior o posterior. Es la memoria que se actualiza constantemente mientras el ordenador está en uso y que pierde sus datos mientras el ordenador se apaga.
+	En su descripción moderna la memoria, suele referirse a una forma de almacenamiento en estado sólido, donde se guardan los datos que se usan en el momento presente, una mejor descripción seria memoria RAM (Random Access Memory), memoria de acceso aleatorio o Memoria Volátil\cite{monografia}, se llama así porque el procesador accede a la información que está en la memoria en cualquier punto sin tener que acceder a la información anterior o posterior. Es la memoria que se actualiza constantemente mientras el ordenador está en uso y que pierde sus datos mientras el ordenador se apaga.
 	\\\\
-	El propósito del almacenamiento es guardar datos que el computador no esté usando. Dicho almacenamiento tiene tres ventajas sobre la “Memoria”:
+	El propósito del almacenamiento es guardar datos que el computador no esté usando. Dicho almacenamiento tiene tres ventajas sobre la “Memoria”(\ref{rom}):
 	
 	\begin{enumerate}
 		
@@ -82,7 +81,7 @@
 	\newpage
 	
 	\section{Menciona dos tipos de memoria que conoce y haga una pequeña descripción de cada una} \label{menciona}
-	En un computador hay varios tipos de memoria, ordenados en jerarquías de velocidad ycapacidad, en este caso se muestran unas de una gran relevancia:
+	En un computador hay varios tipos de memoria, ordenados en jerarquías de velocidad ycapacidad, en este caso se muestran unas de una gran relevancia:\cite{youbioit}
 	
 	\begin{enumerate}
 		
@@ -94,9 +93,9 @@
 	\end{enumerate}
 	
 	\subsection{Memoria Cache L1, L2, L3}
-	Actualmente hay microprocesadores de demasiado rápido que funciona a miles de millones de  ciclos por segundo, por lo cual requiere un dispositivo de almacenamiento temporal, de alta velocidad que pueda seguirle el ritmo, de lo contrario la velocidad se desperdiciaría a esperar que la información llegue, pero ese tipo de memorias y a esa velocidades resultan ser demasiados costosas, por lo que se dio como solución utilizar la memoria Cache que es la memoria más veloz en pequeñas cantidades secundadas, y la memoria RAM en grandes cantidades de almacenamiento falsh, ya que cada vez que se toma un paquete de datos del procesador se toma una copia por la memoria Cache.
+	Actualmente hay microprocesadores de demasiado rápido que funciona a miles de millones de  ciclos por segundo, por lo cual requiere un dispositivo de almacenamiento temporal, de alta velocidad que pueda seguirle el ritmo, de lo contrario la velocidad se desperdiciaría a esperar que la información llegue, pero ese tipo de memorias y a esa velocidades resultan ser demasiados costosas, por lo que se dio como solución utilizar la memoria Cache que es la memoria más veloz en pequeñas cantidades secundadas, y la memoria RAM en grandes cantidades de almacenamiento falsh (\ref{ram}), ya que cada vez que se toma un paquete de datos del procesador se toma una copia por la memoria Cache.\cite{cache}
 	\\\\
-	Su función como memoria intermedia, que guarda los datos para que soluciones futuras por lo que esos datos se pueden atender con mayor rapidez, pueden ser el resultado de un cálculo anterior, o como derivados de almacenamientos de un proceso, es una memoria intermedia su función es la velocidad. Algo que en el análisis de datos y a la velocidad de los procesadores, es muy necesario.
+	Su función como memoria intermedia, que guarda los datos para que soluciones futuras por lo que esos datos se pueden atender con mayor rapidez, pueden ser el resultado de un cálculo anterior,\cite{cache} o como derivados de almacenamientos de un proceso, es una memoria intermedia su función es la velocidad. Algo que en el análisis de datos y a la velocidad de los procesadores, es muy necesario.
 	
 	\subsection{Memoria Virtual}
 	Es una porción del disco duro, en tercer grado de jerarquía en la velocidad del disco duro, que está dedicada exclusivamente a “sostener”, temporalmente los pedazos de los programas, y datos en ejecución que se utilizan menos, o que ocupan un espacio innecesario en algún momento determinado y es preferible colocarlos en una zona de reserva, donde siempre estarán listos para ser utilizados cuando se les requiera, pero no ocuparán innecesariamente espacio en la memoria.
@@ -112,13 +111,13 @@
 	\end{figure}
 	
 	\section{Describa la manera como se gestiona la memoria\\de un computador} \label{describa}
-	Cuando nos referimos a gestionar, hablamos de la manera como el computador organiza y administra los datos de memoria del computador, y un muy buen ejemplo es la memoria RAM, dicha memoria está dividida en celdas de memoria, donde se almacena cada uno de los bits o pulsos eléctricos, (que representa 1 y 0), de las cuales se puede acceder directa e indistintamente, de sus posición y dirección.
+	Cuando nos referimos a gestionar, hablamos de la manera como el computador organiza y administra los datos de memoria del computador, y un muy buen ejemplo es la memoria RAM, dicha memoria está dividida en celdas de memoria, donde se almacena cada uno de los bits o pulsos eléctricos, (que representa 1 y 0), de las cuales se puede acceder directa e indistintamente, de sus posición y dirección.\cite{monografias}
 	\\\\
-	El procesador es el centro de trabajo del computador, dicho procesador tiene microcontroladores que para la fecha trabajan a velocidades incalculables hace unas décadas, la grandes velocidades actuales han permitido mejorar mucho procesos pero también conllevan una gran reto por igual, ya que la memoria no puede correr a la misma velocidad y ergo tener costos de trabajo y manutención accesibles, así que una buena manera de manejar le trabajo paralelo al procesador sin conocer los eventos que vaya a realizar el ordenador, es trabajar con memoras de distinta velocidad y capacidad de almacenamiento para distintos propósito, de ahí nace la idea de usar la memoria caché como intermediario y preliminar, a la memoria RAM por lo que después permite al manejar la información de manera volátil, según el uso que se requiera dentro del computador, ya que su trabajo en mayor o menor medida requiere un gran esfuerzo por parte de la máquina, para después almacenar los datos necesarios en la memoria no volátil, pasando según el traslado de información en la memoria virtual, ya que es un vínculo directo entre la memoria RAM, y el disco duro o la memoria ROM, por lo que si se quiere guardar dicha información en líneas de comandos de bits, para almacenadas en el disco duro, y guardarlas a posteriori el computador este apagado.
+	El procesador es el centro de trabajo del computador, dicho procesador tiene microcontroladores que para la fecha trabajan a velocidades incalculables hace unas décadas, la grandes velocidades actuales han permitido mejorar mucho procesos pero también conllevan una gran reto por igual, ya que la memoria no puede correr a la misma velocidad y ergo tener costos de trabajo y manutención accesibles, así que una buena manera de manejar le trabajo paralelo al procesador sin conocer los eventos que vaya a realizar el ordenador, \cite{youbioit} es trabajar con memoras de distinta velocidad y capacidad de almacenamiento para distintos propósito, de ahí nace la idea de usar la memoria caché como intermediario y preliminar, a la memoria RAM por lo que después permite al manejar la información de manera volátil, según el uso que se requiera dentro del computador, ya que su trabajo en mayor o menor medida requiere un gran esfuerzo por parte de la máquina, para después almacenar los datos necesarios en la memoria no volátil, pasando según el traslado de información en la memoria virtual, ya que es un vínculo directo entre la memoria RAM, y el disco duro o la memoria ROM, por lo que si se quiere guardar dicha información en líneas de comandos de bits, para almacenadas en el disco duro, y guardarlas a posteriori el computador este apagado.
 
 	
 	\section{¿Que hace que una memoria sea más rápida que otra?\\¿Porque eso es importante?} \label{que}
-	Su diseño, cada memoria tiene una función distinta, y cada tipo de memoria debe estar diseñada de forma distinta para cumplir en especial con su función, el formato de celdas es muy aplicable en memorias volátiles, ya que necesitan que el paso de la información sea rápida y conciso según los pulsos eléctricos, dicho trabajo a diferencia de las otras memorias hace que requieran una arquitectura más específica para los temas de análisis de datos, parecido al procesador, distinto del disco duro cuyo único fin es almacenar la información y que a lo largo del tiempo ha cambiado mucho su diseño y la tecnología que usa para guardar dicha información.
+	Su diseño, cada memoria tiene una función distinta, y cada tipo de memoria debe estar diseñada de forma distinta para cumplir en especial con su función,\cite{youbioit} el formato de celdas es muy aplicable en memorias volátiles, ya que necesitan que el paso de la información sea rápida y conciso según los pulsos eléctricos, dicho trabajo a diferencia de las otras memorias hace que requieran una arquitectura más específica para los temas de análisis de datos, parecido al procesador, distinto del disco duro cuyo único fin es almacenar la información y que a lo largo del tiempo ha cambiado mucho su diseño y la tecnología que usa para guardar dicha información.
 	\\\\
 	Es importante ya que las función de cada parte de la memoria tiene que cumplir específicamente con su rango de trabajo, por eso es que en las memorias volátiles prima la velocidad que en la cantidad del almacenamiento y a mayor velocidad menor cantidad de almacenamiento procesal algo que le permite poder ejecutarse de manera más competa dentro del ordenador, el disco duro por poseer diferente arquitectura y cuya función es mantener la fidelidad de los datos se espera que sea más lento ya que se demora más tiempo es procesar y guardar la información.
 	
@@ -131,4 +130,9 @@
 	
 	\newpage
 	
+		
+	\bibliographystyle{IEEEtran}
+	\bibliography{references}
+
+
 \end{document}
