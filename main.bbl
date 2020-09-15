@@ -21,28 +21,28 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{cache}
-\BIBentryALTinterwordspacing
-Wikipedia. Caché (informática). [Online]. Available:
-  \url{https://es.wikipedia.org/wiki}
-\BIBentrySTDinterwordspacing
-
 \bibitem{memoria}
 \BIBentryALTinterwordspacing
-------. Memoria (informática). [Online]. Available:
-  \url{https://es.wikipedia.org/wiki}
-\BIBentrySTDinterwordspacing
-
-\bibitem{monografias}
-\BIBentryALTinterwordspacing
-Monografias. Las memorias de un computador. [Online]. Available:
-  \url{https://www.monografias.com/trabajos16/memorias/memorias.shtml}
+Wikipedia. Memoria (informática). [Online]. Available:
+  \url{https://es.wikipedia.org/wiki/Memoria_(informática)}
 \BIBentrySTDinterwordspacing
 
 \bibitem{youbioit}
 \BIBentryALTinterwordspacing
 8714. Como funciona la memoria de una computadora. [Online]. Available:
   \url{http://www.youbioit.com/es/article/shared-information/8714/como-funciona-la-memoria-de-una-computadora}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cache}
+\BIBentryALTinterwordspacing
+Wikipedia. Caché (informática). [Online]. Available:
+  \url{https://es.wikipedia.org/wiki/Caché_(informática)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{monografias}
+\BIBentryALTinterwordspacing
+Monografias. Las memorias de un computador. [Online]. Available:
+  \url{https://www.monografias.com/trabajos16/memorias/memorias.shtml}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

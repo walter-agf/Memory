@@ -8,11 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-Unbalanced braces---line 12 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "monografia"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -20,7 +16,7 @@ I'm skipping whatever remains of this entry
 Done.
 You've used 4 entries,
             4087 wiz_defined-function locations,
-            835 strings with 7650 characters,
+            837 strings with 7734 characters,
 and the built_in function-call counts, 1360 in all, are:
 = -- 87
 > -- 16
@@ -28,7 +24,7 @@ and the built_in function-call counts, 1360 in all, are:
 + -- 8
 - -- 4
 * -- 43
-:= -- 264
+:= -- 265
 add.period$ -- 8
 call.type$ -- 4
 change.case$ -- 4
@@ -37,7 +33,7 @@ cite$ -- 4
 duplicate$ -- 104
 empty$ -- 133
 format.name$ -- 4
-if$ -- 279
+if$ -- 278
 int.to.chr$ -- 0
 int.to.str$ -- 4
 missing$ -- 28
@@ -59,4 +55,4 @@ warning$ -- 0
 while$ -- 4
 width$ -- 5
 write$ -- 58
-(There was 1 error message)
+(There was 1 warning)
